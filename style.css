@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f0e68c, #ff69b4); /* Background gradient */
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 3rem;
+    color: #800080; /* Purple color */
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 50px; /* Reduced border radius */
+}
+
+#search_image {
+    padding: 20px;
+    text-align: center;
+}
+
+.input_box {
+    height: 40px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 20px; /* Reduced border radius */
+    border: 2px solid #800080; /* Purple border */
+    margin-right: 20px; /* Reduced margin */
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px; /* Reduced border radius */
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #800080; /* Purple background color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none; /* Removed button border */
+}
+
+button:hover {
+    background-color: #4b0082; /* Darker purple color on hover */
+}
+
+#dwld_btn {
+    display: none;
+    margin: 20px auto; /* Center the button horizontally */
+    display: block;
+}
+
+#image {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%; /* Reduced maximum width */
+    border-radius: 10px; /* Reduced border radius */
+}
